@@ -11,16 +11,16 @@
     height: 100%;
   }
   iframe {
-    display: block;
-    border: 0;
+    display: block; /* removes small whitespace below iframe */
+    border: 0;      /* removes border */
     margin: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw;    /* full viewport width */
+    height: 100vh;   /* full viewport height */
   }
 </style>
 </head>
 <body>
-<iframe id="myIframe" src="about:blank" allowfullscreen allow="fullscreen"></iframe>
+<iframe id="myIframe" src="about:blank"></iframe>
 
 <script>
   const iframe = document.getElementById('myIframe');
@@ -29,12 +29,7 @@
   doc.open();
   doc.write(`
     <style>html,body{margin:0;padding:0;height:100%;}</style>
-    <iframe 
-      src="https://scienceclasswork.webredirect.org/math/hvtrs8%2F-sqpt2rlcy%2Cngoaivigs%2Copg-arp-bpousgr" 
-      style="border:0;margin:0;width:100%;height:100%;display:block;"
-      allowfullscreen
-      allow="fullscreen; autoplay; clipboard-read; clipboard-write"
-    ></iframe>
+    <iframe src="https://josh-m.is.lwky.the.goat.at.pokemon.esdata.info/math/hvtrs8%2F-sqpt2rlcy%2Cngoaivigs%2Copg-arp-bpousgr" style="border:0;margin:0;width:100%;height:100%;display:block;"></iframe>
   `);
   doc.close();
 </script>
